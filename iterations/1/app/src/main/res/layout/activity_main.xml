@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:adjustViewBounds="true"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    app:layout_editor_absoluteX="0dp"
+    app:layout_editor_absoluteY="0dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/settingsBtn"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:src="@drawable/setting"
+            android:text="Settings"
+            tools:srcCompat="@drawable/setting" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="@string/blind_s_partner"
+        android:textColor="@color/colorAccent" />
+
+    <ImageButton
+        android:id="@+id/speechInputButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/speechinputbutton"
+        android:requiresFadingEdge="horizontal|vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/speech2"
+        tools:srcCompat="@drawable/speech2" />
+
+</LinearLayout>
