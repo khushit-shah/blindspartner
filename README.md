@@ -20,7 +20,7 @@ Following are the tasks that can be performed by the app:
 # Warning: 
 Most of the code was writtern during a Hackathon. There are lot of bugs, Code Quality is at sea level. 
 
-# On Going tasks:
+# On Going development:
   - Well comment and format the code
   - Add functionality to read text.
   - Add functionality to detect faces.
