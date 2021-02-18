@@ -1,4 +1,4 @@
-# BlindsPartnerHackathon
+# Blind's Partner
 Blind's Partner is an Android App that helps blinds in their day to day  activity.
 
 Blind's Partner can be operated completely on voice commands and provides audio output.
