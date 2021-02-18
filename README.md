@@ -17,7 +17,8 @@ Following are the tasks that can be performed by the app:
   - Supports English and Gujarati, other languages can be added easilly.
 
 
-# Warning: Most of the code was writtern during a Hackathon. There are lot of bugs, Code Quality is at sea level. 
+# Warning: 
+Most of the code was writtern during a Hackathon. There are lot of bugs, Code Quality is at sea level. 
 
 # On Going tasks:
   - Well comment and format the code
